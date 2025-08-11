@@ -86,19 +86,19 @@ function App() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
                   <h3 className="font-semibold mb-2">Gastronomía</h3>
-                  <p className="text-sm text-gray-600">Experiencia en cocina de alto nivel</p>
+                  <p className="text-sm text-gray-600">Base clásica, producto y técnica. Carta pensada para producir bien cada día.</p>
                 </div>
                 <div className="p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
-                  <h3 className="font-semibold mb-2">Desarrollo</h3>
-                  <p className="text-sm text-gray-600">Experto en tecnologías web modernas</p>
+                  <h3 className="font-semibold mb-2">Operaciones</h3>
+                  <p className="text-sm text-gray-600">Optimizando cada jornada para lograr un ahorro eficiente y con criterio.</p>
                 </div>
                 <div className="p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
                   <h3 className="font-semibold mb-2">IA</h3>
-                  <p className="text-sm text-gray-600">Integración de soluciones inteligentes</p>
+                  <p className="text-sm text-gray-600">Integración de soluciones inteligentes con automatizaciones y asistentes que mejoran tu trabajo.</p>
                 </div>
                 <div className="p-6 bg-gradient-to-br from-blue-50 to-teal-50 rounded-xl">
                   <h3 className="font-semibold mb-2">Innovación</h3>
-                  <p className="text-sm text-gray-600">Mejora continua de procesos</p>
+                  <p className="text-sm text-gray-600">Mejora continua con cambios pequeños, medibles y sostenibles.</p>
                 </div>
               </div>
             </div>
