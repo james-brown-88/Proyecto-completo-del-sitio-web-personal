@@ -1,0 +1,111 @@
+import React from 'react';
+import { Header } from '../../components/Header';
+
+const InnovacionTecnologias = () => {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      <Header />
+      {/* Hero Section */}
+      <section className="relative pt-32 pb-20 bg-blue-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-5xl font-bold mb-6">Innovación y nuevas tecnologías</h1>
+            <p className="text-xl mb-8">Transforma tu negocio con soluciones tecnológicas de vanguardia.</p>
+            <button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full font-semibold transition-colors">
+              Solicitar asesoría gratuita
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* ¿Qué es? Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8">¿Qué es y por qué lo necesitas?</h2>
+          <p className="text-lg text-gray-600 leading-relaxed">
+            La innovación tecnológica permite a tu negocio mantenerse competitivo y eficiente. 
+            Implementamos soluciones tecnológicas avanzadas que mejoran la experiencia del cliente 
+            y optimizan tus operaciones diarias.
+          </p>
+        </div>
+      </section>
+
+      {/* Casos de Uso Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8">Casos de uso</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <h3 className="font-semibold mb-2">Menús digitales interactivos con actualización en tiempo real</h3>
+              <p className="text-gray-600">Gestión dinámica de tu oferta gastronómica.</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <h3 className="font-semibold mb-2">Generador automático de fichas técnicas y escandallos</h3>
+              <p className="text-gray-600">Automatización de documentación crítica.</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <h3 className="font-semibold mb-2">Chatbot/IA para atención a clientes y reservas</h3>
+              <p className="text-gray-600">Atención automatizada 24/7.</p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <h3 className="font-semibold mb-2">Reportes automáticos de ventas y costes</h3>
+              <p className="text-gray-600">Análisis en tiempo real de tu negocio.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Qué te entrego Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8">Qué te entrego</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="font-semibold mb-2">Prototipo funcional en 7–14 días</h3>
+              <p className="text-gray-600">Solución inicial lista para probar rápidamente.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="font-semibold mb-2">Integración inicial en tus procesos</h3>
+              <p className="text-gray-600">Implementación adaptada a tu operativa actual.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <h3 className="font-semibold mb-2">Informe con mejoras recomendadas y plan de escalado</h3>
+              <p className="text-gray-600">Hoja de ruta para el crecimiento futuro.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Proceso Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8">Proceso</h2>
+          <div className="grid md:grid-cols-4 gap-8">
+            <div className="relative">
+              <div className="text-blue-600 text-xl font-bold mb-4">01</div>
+              <h3 className="font-semibold mb-2">Identificación de oportunidad</h3>
+              <p className="text-gray-600">Análisis según tu negocio.</p>
+            </div>
+            <div className="relative">
+              <div className="text-blue-600 text-xl font-bold mb-4">02</div>
+              <h3 className="font-semibold mb-2">Creación de prototipo</h3>
+              <p className="text-gray-600">Desarrollo de solución inicial.</p>
+            </div>
+            <div className="relative">
+              <div className="text-blue-600 text-xl font-bold mb-4">03</div>
+              <h3 className="font-semibold mb-2">Pruebas en entorno real</h3>
+              <p className="text-gray-600">Validación en tu negocio.</p>
+            </div>
+            <div className="relative">
+              <div className="text-blue-600 text-xl font-bold mb-4">04</div>
+              <h3 className="font-semibold mb-2">Decisión final</h3>
+              <p className="text-gray-600">Escalar, mejorar o descartar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default InnovacionTecnologias;
