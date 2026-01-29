@@ -8,13 +8,22 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/19R7qaMtZqjYZsWotGlgXK_thacSDHs6Y
 
+## Deployment
+
+**Vercel Project:** [proyecto-completo-del-sitio-web-personal](https://vercel.com/jaumes-projects-4962abc7/proyecto-completo-del-sitio-web-personal)
+
+### Environment Variables
+When deploying to Vercel, make sure to add the following environment variables in the project settings:
+- `VITE_SUPABASE_URL`: Your Supabase Project URL
+- `VITE_SUPABASE_ANON_KEY`: Your Supabase Anon Key
+- `GEMINI_API_KEY`: Your Gemini API Key
+
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Configure [.env.local](.env.local) with your Supabase and Gemini credentials.
 3. Run the app:
    `npm run dev`
